@@ -1,0 +1,16 @@
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 90px;
+    gap: 15px;
+    padding: 40px;
+}
+.pokedex__aside{
+    margin-top: 70px;
+    margin-left: 40px;
+    line-height: 50px;
+}
+.pokedex__marquesina{
+    font-size: 30px;
+    font-weight: 400;
+}

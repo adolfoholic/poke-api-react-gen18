@@ -1,0 +1,271 @@
+.poke__detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poke__detail-img{
+    width: 60%;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+.poke__detail-id{
+    position: relative;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+.poke__detail-name{
+    position: relative;
+    text-transform: capitalize;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.poke__characteristics{
+    display: grid;
+    grid-column: auto;
+    position: relative;
+    margin-top: 220px;
+    font-weight: 600;
+    gap: 20px;
+}
+.poke__detail-characteristics{
+    display: flex;
+    gap: 10px;
+    flex-direction:row;
+    align-items: center;
+}
+.poke__detail-hnumber{
+  position: relative;
+  margin-right: 60px;
+  color:gray;
+}
+.poke__detail-wnumber{
+  color:gray;
+}
+.poke__stats{
+  margin-top: 60px;
+  border-style: groove;
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: -1px 1px 10px #0004;
+  width: 60%;
+
+}
+.poke__stats ul li span.poke-detail__percent{
+    position: relative;
+    overflow: hidden;
+    width: 110%;
+    height: 25px;
+    display: block;
+    color: whitesmoke;
+}
+.poke__stats ul li span.poke-detail__percent div{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #FCD676 25%, #E6901E 100%);
+}
+.poke__detail__stats-container{
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.poke__detail__title-st{
+    margin-bottom: 20px;
+}
+.poke__detail__title-ty{
+    position: relative;
+    padding: 10px;
+}
+.poke__types{
+    position: relative;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.poke__detail-types{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.poke__detail-type{
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+}
+.poke__detail__title-ab{
+    position: relative;
+    padding: 10px;
+    margin-top: -20px;
+}
+.poke__abilities{
+    position: relative;
+    margin-top: -60px;
+    margin-left: 750px;
+}
+.poke__detail-abilities{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+ 
+}
+.poke__detail-ability{
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    border-style:groove;
+    border-width: 0.5px;
+}
+.poke__movements{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 30px;
+    border-style: groove;
+    border-width: 0.5px;
+    box-shadow: -1px 1px 10px #0004;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.poke__detail-moves{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+.poke__detail-move{
+    background-color: #bcbcbc;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+.poke__detail__title-mv{
+    margin-bottom: 20px;
+}
+.poke__detail-header{
+    height: 200px;
+    background-color: green;
+    position: relative;
+    margin-top: 160px;
+    padding: 0 400px;
+    border-radius: 20px;
+}
+
+/*background color*/
+
+.bg-normal, .bg-unknown {
+    background: linear-gradient(to bottom,rgba(179,179,179,1) 0%, rgba(237,237,237,1) 100%);
+  }
+  .bg-fighting {
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 69%, #CB735D 100%);
+  }
+  .bg-flying {
+    background: linear-gradient(to bottom, rgba(129,215,255,1) 0%, rgba(0,255,241,1) 100%);
+  }
+  .bg-poison {
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+  }
+  .bg-ground {
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+  }
+  .bg-rock {
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+  }
+  .bg-bug {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+  }
+  .bg-ghost {
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+  }
+  .bg-steel {
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+  }
+  .bg-grass {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  }
+  .bg-fire {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+  }
+  .bg-water {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+  }
+  .bg-electric {
+    background: linear-gradient(to bottom, #fffe00 0%, #fcff97 100%);
+  }
+  .bg-psychic {
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+  }
+  .bg-ice {
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+  }
+  .bg-dragon {
+    background: linear-gradient(to bottom, rgba(255,151,164,1) 0%, rgba(145,221,228,1) 49%, rgba(114,64,235,1) 100%);
+  }
+  .bg-dark, .bg-shadow {
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 40%, #494b4b 100%);
+  }
+  .bg-fairy {
+    background: linear-gradient(to bottom, rgba(255,151,155,1) 0%, rgba(227,145,228,1) 100%, rgba(114,64,235,1) 100%);
+  }
+
+  /*letter color*/
+.letter-normal, .letter-unknown {
+    color: #a5a5a5;
+  }
+  .letter-fighting {
+    color: #c85639;
+  }
+  .letter-flying {
+    color: #1ddce6;
+  }
+  .letter-poison {
+    color: #76529a;
+  }
+  .letter-ground {
+    color: #7b5317;
+  }
+  .letter-rock {
+    color: #8D8D94;
+  }
+  .letter-bug {
+    color:#3BB039;
+  }
+  .letter-ghost {
+    color: #3f45aa;
+  }
+  .letter-steel {
+    color: #667d75;
+  }
+  .letter-grass {
+    color: #3a6506;
+  }
+  .letter-fire {
+    color: #E75C35;
+  }
+  .letter-water {
+    color: #1479FB;
+  }
+  .letter-electric {
+    color: #d9cb00;
+  }
+  .letter-psychic {
+    color: #C5597E;
+  }
+  .letter-ice {
+    color: #6FBEDF;
+  }
+  .letter-dragon {
+    color: #7240eb;
+  }
+  .letter-dark, .letter-shadow {
+    color: #0B0E0D;
+  }
+  .letter-fairy {
+    color: #fe7fc1;
+  }
